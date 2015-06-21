@@ -34,7 +34,7 @@ app.post('/score-upload', function(req, res, next) {
 
       res.write(text);
 
-      var t1, t2, score = text.match(/([0-9]+)[\s-\.]+([0-9]+)/i), s1=0, s2=0;
+      var t1, t2, score = text.match(/([0-9]+)[\s-]+([0-9]+)/i), s1=0, s2=0;
 
       if(score!=null){
         s1 = score[1];

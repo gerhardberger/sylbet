@@ -1,0 +1,28 @@
+{
+  "name": "sylbet",
+  "version": "0.0.1",
+  "description": "ez egy ilyen fogados szamitogepes program.",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://brenca@github.com/gerhardberger/sylbet.git"
+  },
+  "author": "Heilig Benedek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerhardberger/sylbet/issues"
+  },
+  "homepage": "https://github.com/gerhardberger/sylbet#readme",
+  "dependencies" : {
+    "nodecr" : "latest",
+    "sift-string" : "latest",
+    "express" : "latest",
+    "multer" : "latest"
+  }
+}
